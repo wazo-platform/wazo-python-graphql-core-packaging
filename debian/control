@@ -14,5 +14,6 @@ Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends},
          python3-promise
-Description: GraphQL for Python.
+Description: GraphQL for Python
  .
+ This library is a port of graphql-js to Python.
