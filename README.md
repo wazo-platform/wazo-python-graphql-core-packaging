@@ -1,6 +1,6 @@
 # wazo-python-graphql-core-packaging
 
-Debian packaging for [python3-graphql-core](https://github.com/graphql-python/graphql-core/) used in Wazo.
+Debian packaging for [python3-graphql-core (legacy)](https://github.com/graphql-python/graphql-core-legacy/) used in Wazo.
 
 ## Upgrading
 
