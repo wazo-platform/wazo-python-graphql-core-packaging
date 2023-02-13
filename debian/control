@@ -2,7 +2,7 @@ Source: wazo-python-graphql-core-packaging
 Section: python
 Priority: optional
 Maintainer: Wazo Maintainers <dev+pkg@wazo.community>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 12),
                dh-python,
                python3-all,
                python3-setuptools
@@ -15,5 +15,5 @@ Depends: ${misc:Depends},
          ${python3:Depends},
          python3-promise
 Description: GraphQL for Python
- .
  This library is a port of graphql-js to Python.
+ .
