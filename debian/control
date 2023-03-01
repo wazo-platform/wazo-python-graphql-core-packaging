@@ -13,7 +13,7 @@ Package: python3-graphql-core
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends},
-         python3-promise
+         python3-typing-extensions (>= 4.4.0)
 Description: GraphQL for Python
  This library is a port of graphql-js to Python.
  .
