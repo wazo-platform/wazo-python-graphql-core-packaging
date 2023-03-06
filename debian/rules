@@ -2,7 +2,7 @@
 
 PKG = $(word 2,$(shell dpkg-parsechangelog | grep Source))
 VERSION ?= $(shell cat VERSION)
-URL_DOWNLOAD = "https://github.com/graphql-python/graphql-core-legacy/archive/v${VERSION}.tar.gz"
+URL_DOWNLOAD = "https://github.com/graphql-python/graphql-core/archive/v${VERSION}.tar.gz"
 export PYBUILD_NAME=graphql-core
 export PYBUILD_DISABLE=test
 export PYBUILD_SYSTEM=distutils
